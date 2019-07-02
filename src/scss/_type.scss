@@ -1,19 +1,19 @@
 /* COLORS */
 /* Text colors */
 body, p {
-	color: $dark-color-2;
+	color: $gray;
 }
 
 h1, h2, h3, h4, h5, h6, 
 strong {
-	color: $dark-color-1;
+	color: $black;
 }
 
 a {
-	color: $brand-color-1;
+	color: $blue;
 
 	&:hover {
-		color: $brand-color-2;
+		color: $red;
 	}
 }
 

@@ -44,7 +44,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -81,6 +81,7 @@ strong {
 a {
   color: #4141B0;
 }
+
 a:hover {
   color: #E82020;
 }
@@ -137,18 +138,19 @@ h3 {
 }
 
 h2 {
-  font-size: 1.953125rem;
+  font-size: 1.95312rem;
   line-height: 2.25rem;
 }
 
 h1 {
-  font-size: 2.44140625rem;
+  font-size: 2.44141rem;
   line-height: 3rem;
 }
 
 /* GENERAL */
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -160,8 +162,10 @@ p, li,
 }
 
 img {
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   display: block;
   max-width: 100%;
   margin: 0 auto 1.5rem;
@@ -182,11 +186,11 @@ button,
   outline: 0;
   cursor: pointer;
 }
+
 button:hover,
 .button:hover {
   background-color: #E82020;
   color: #F2F2F2;
   border-color: #E82020;
 }
-
 /*# sourceMappingURL=styles.css.map */
